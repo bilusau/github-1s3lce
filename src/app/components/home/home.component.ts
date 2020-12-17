@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { AuthService } from 'src/app/auth.service';
-import { CartService } from 'src/app/cart.service';
-import { Product } from 'src/app/Interface/products.interface';
-import { ProductsService } from 'src/app/products.service';
+import { AuthService } from '../../auth.service';
+import { CartService } from '../../cart.service';
+import { Product } from '../../Interface/products.interface';
+import { ProductsService } from '../../products.service';
 
 @Component({
   selector: 'app-home',
