@@ -21,7 +21,7 @@ import { ProductsComponent } from './components/products/products.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { PricingComponent } from './components/pricing/pricing.component';
 import { from } from 'rxjs';
-import { environment } from 'src/environments/environment';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
