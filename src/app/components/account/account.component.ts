@@ -1,6 +1,6 @@
 import { Component, ElementRef, OnInit, ViewChild, ViewChildren } from '@angular/core';
 import { NgForm } from '@angular/forms';
-import { ProductsService } from 'src/app/products.service';
+import { ProductsService } from '../../products.service';
 
 @Component({
   selector: 'app-account',
